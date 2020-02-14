@@ -1,32 +1,61 @@
-.navbar-brand
+.row
 {
-  font-size: 50px;
-  color: #00ff00;
+  background-color: #00ff00;
 }
 /* Giving our navbar some padding and a background color */
-.navbar {
+.navbar-brand {
     padding: 10px;
-    background: #74992e;
+    background: #800080;
   }
 
-a {
+.a {
     display: block;
     color: white;
     background-color: #ddddddbb;
-
+  }
      
-   
-.container {
-        height: 400px;
-        padding: 20px;
-        color:id = fff;
+/* Highlighting the boxes with a shocking color */  
+
+
+ 
+  .box {
+    float: left;
+    width: 33.33%; /* three boxes (use 25% for four, and 50% for two, etc) */
+    padding: 30px; /* if you want space between the images */
+    height: 500px;
         background-color: rgb(255, 0, 212);
+        margin: 20px;
+        margin-top: 200;
       }
-
-      .margin-top {
-        margin-top: 80px;
+      
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+      .box {
+        float: left;
+        width: 50.00%; /* two boxes */
+        padding: 40px; /* if you want space between the images */
       }
+      
 
+.margin-top {
+        margin-top: 200px;
+      }
+      
+.col {
+  color: #00ff00;
+}
+ 
+h2 {
+color: #FF0000
+}
+
+.container background{
+  color:yellow
+}
      
 
       
@@ -38,6 +67,6 @@ a {
     .box{
         width: 100%
     }
-
+  }
       
 
