@@ -1,7 +1,4 @@
-.row
-{
-  background-color: #00ff00;
-}
+
 /* Giving our navbar some padding and a background color */
 .navbar-brand {
     padding: 10px;
@@ -13,14 +10,17 @@
     color: white;
     background-color: #ddddddbb;
   }
-     
-/* Highlighting the boxes with a shocking color */  
+/* Shocking neon background */
+  .row
+  {
+    background-color: #00ff00;
+  }
 
+/* Highlighting the boxes with a hot pink */  
 
- 
   .box {
-    float: left;
-    width: 33.33%; /* three boxes (use 25% for four, and 50% for two, etc) */
+  /*  float:
+    /*width: 500px; /* three boxes (use 25% for four, and 50% for two, etc) */
     padding: 30px; /* if you want space between the images */
     height: 500px;
         background-color: rgb(255, 0, 212);
@@ -28,18 +28,17 @@
         margin-top: 200;
       }
       
-html {
+/*.html {
     box-sizing: border-box;
 }
-*, *:before, *:after {
-    box-sizing: inherit;
-}
-      .box {
+
+
+/*      .box {
         float: left;
         width: 50.00%; /* two boxes */
-        padding: 40px; /* if you want space between the images */
-      }
+/*        padding: 40px; /* if you want space between the images */
       
+/*      
 
 .margin-top {
         margin-top: 200px;

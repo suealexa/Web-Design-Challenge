@@ -2,70 +2,68 @@
 <html lang="en">
 <head>
     <meta charset="utf-8" />
-    <title>Weather</title>
+    <title>Weather Home</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">      <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Start of navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary"> 
       <a class="navbar-brand" href="index.html">Latitude</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-  
+        
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Plots
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="temp.html"><img src="Resources/assets/images/Fig1.png" alt="Latitude vs. Max Temperature"></a>
-                  <a class="dropdown-item" href="humidity.html"><img src="Resources/assets/images/Fig2.png" alt="Latitude vs. Humidity"></a>
-                  <a class="dropdown-item" href="cloudiness.html"></a>
-                  <a class="dropdown-item" href="wind.html"></a>
+            <li class="nav-item dropdown show">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Plots</a>
+                <div class="dropdown-menu show" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="temp.html">Max Temperature</a>
+                  <a class="dropdown-item" href="humidity.html">Humidity</a>
+                  <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                  <a class="dropdown-item" href="wind.html">Wind Speed</a>
                 </div>
             </li>  
+            
+
             <li class="nav-item active">
-              <a class="nav-link" href="Data.html">Data <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="Data.html">Data </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="comparison.html">Comparisons</a>
             </li>
           </ul>
         </div>  
-      </div>
     </nav>
 
         <!-- End of navbar -->
 
-       <!--Make boxes for images-->     
-      <div class="row"> 
-        <div class="col-md-8">
-            <div class="box">
-                * {
-                    box-sizing: border-box;
-                  } 
+       <!--Make boxes for images-->  
+<div class= "container">
+    <div class="row"> 
+        <div class="col-md-7">
+           <!-- <div class="box">-->
+                
             <h3 class="Summary">Summary: How latitude impacts weather</h3>
             <hr/>
-              <div class="thumbnail"></div>
+              
               <a href = "Resources/assets/images/Fig1.png" alt="Latitude vs. Max Temperature" class="thumbnail" style = "float: left">
                 <img src="Resources/assets/images/Fig1.png" style=width:400px align="left"
                  alt="Description of Fig 1"  style = width:110px; border:3px solid float: left>
               </a> 
-              &nbsp;
+             
               <p>This project examined the effect of latitude on four different weather types.  We utilized our knowledge of API calls to gather data from over 500 randomly selected cities around the world.  We then used Matplotlib tools to create four visualizations that illustrated the relationship of cloudiness, temperature, humidity and wind speed to latitude. </pre>
               <br>
                 <p>Finally, we analyzed the results of climate on latitude.  This site summarizes the findings and includes the source material and visualizations.</p>     
-                &nbsp;
-            </div>
-        <div class="col-md-4">
-            <div class="box">
+                
+        </div>
+        <div class="col-md-5">
+           <!-- <div class="box">-->
               <h3 class="Visualizations">Visualizations</h3>
               <hr/>
-               <div class="thumbnail" ></div>
+               
                 <a href="Resources/assets/images/Fig1.png" alt="Latitude vs. Max Temperature" class="thumbnail" style="float:left" width:400px>
                   <img src="Resources/assets/images/Fig1.png"  style=width:400px >
                 <a href="Resources/assets/images/Fig2.png" alt="Latitude vs. Humidity" class="thumbnail" style="float:right">
@@ -75,8 +73,9 @@
                 <a href="Resources/assets/images/Fig4.png" alt="Latitude vs. Wind Speed" class="thumbnail" style="float:right">
                   <img src="Resources/assets/images/Fig4.png"  style=width:400px>
                 </a>
+            
         </div>
-      </div>
     </div>
+</div>
 </body>
 </html>
