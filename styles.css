@@ -10,6 +10,10 @@
     color: white;
     background-color: #ddddddbb;
   }
+
+.jumbotron {
+  margin: 10px;
+}
 /* Shocking neon background */
   .row
   {
@@ -17,27 +21,22 @@
   }
 
 /* Highlighting the boxes with a hot pink */  
-
-  .box {
-  /*  float:
-    /*width: 500px; /* three boxes (use 25% for four, and 50% for two, etc) */
-    padding: 30px; /* if you want space between the images */
-    height: 500px;
+.box {
+    float: left;
+    width: 100.00%; 
+   /* padding: 30px; /* if you want space between the images */
+   /* height: 800px;*/
         background-color: rgb(255, 0, 212);
-        margin: 20px;
+        margin: 0px;
         margin-top: 200;
       }
       
-/*.html {
+.html {
     box-sizing: border-box;
 }
 
 
-/*      .box {
-        float: left;
-        width: 50.00%; /* two boxes */
-/*        padding: 40px; /* if you want space between the images */
-      
+
 /*      
 
 .margin-top {
@@ -51,7 +50,7 @@
 h2 {
 color: #FF0000
 }
-
+*/
 .container background{
   color:yellow
 }
