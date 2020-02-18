@@ -4,6 +4,11 @@
     <meta charset="utf-8" />
     <title>Weather Home</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">      <link rel="stylesheet" href="style.css">
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -18,7 +23,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item dropdown show">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Plots</a>
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="false" aria-expanded="true">Plots</a>
                 <div class="dropdown-menu show" aria-labelledby="navbarDropdownMenuLink">
                   <a class="dropdown-item" href="temp.html">Max Temperature</a>
                   <a class="dropdown-item" href="humidity.html">Humidity</a>
@@ -44,10 +49,10 @@
 <!--<div class= "container">-->
   <div class="jumbotron">
     <div class="row">
-        <div class="col-md-7">
-           <div class="box">
+      <div class="col-md-7">
+          <div class="box">
                 
-            <h3 class="Summary">Summary: How latitude impacts weather</h3>
+            <h3 class="Summary">Summary: Latitude Vs. Weather</h3>
             <hr/>
               
               <a href = "Resources/assets/images/Fig1.png" alt="Latitude vs. Max Temperature" class="thumbnail" style = "float: left">
@@ -55,15 +60,14 @@
                  alt="Description of Fig 1"  style = width:110px; border:3px solid float: left hspace="20">
               </a> 
              
-              <p>This project examined the effect of latitude on four different weather types.  We utilized our knowledge of API calls to gather data from over 500 randomly selected cities around the world.  We then used Matplotlib tools to create four visualizations that illustrated the relationship of cloudiness, temperature, humidity and wind speed to latitude. </pre>
+              <p>This project examined latitude in relation to different weather conditions.  We utilized our knowledge of API calls to gather real weather data from over 500 randomly selected cities around the world.  We then used Matplotlib tools to create four visualizations that illustrated the relationship of cloudiness, temperature, humidity and wind speed to latitude. </pre>
               <br>
-                <p>Finally, we analyzed the results of climate on latitude.  This site summarizes the findings and includes the source material and visualizations.</p>     
-            </p>
-           </div>    
-        </div>
+                <p>Weather is made up of many factors. We chose to isolate and analyze the results of climate on latitude.  This site summarizes those findings and includes the source material and visualizations.</p>                
+          </div>    
+      </div>
 
-    <div class="col-md-5">
-           <div class="box">
+      <div class="col-md-5">
+          <div class="box">
             <h3 class="Visualizations">Visualizations</h3>
             <hr/>
                 <a href="temp.html" alt="Latitude vs. Max Temperature" class="thumbnail" style="float:left">
@@ -76,13 +80,10 @@
                    <img src="Resources/assets/images/Fig3.png"  style=width:250px  length:350px vspace="15"></a>
                   
                 <a href="wind.html" alt="Latitude vs. Wind Speed" class="thumbnail" style="float:right">
-                  <img src="Resources/assets/images/Fig4.png"  style=width:250px length:350px vspace="15">
-                 
-                </a>
-            
+                  <img src="Resources/assets/images/Fig4.png"  style=width:250px length:350px vspace="15"></a>  
           </div>
-        </div>
+      </div>
     </div>
-</div>
+  </div>
 </body>
 </html>

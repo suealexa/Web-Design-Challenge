@@ -4,8 +4,12 @@
     <meta charset="utf-8" />
     <title>Cloudiness</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">      <link rel="stylesheet" href="style.css">
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" type="text/css" href="mystyle.css">
     <link rel="stylesheet" href="assets/css/styles.css" media="screen">
 </head>
 
@@ -37,21 +41,40 @@
               </li>
             </ul>
           </div>  
-</nav>
-      <div class="container-fluid">        
+</nav>    
+      <div class="container-fluid">  
+        <div class="jumbotron">     
             <div class="row"> 
               <div class="col-md-8">
                   <h3 class="Cloudiness">Latitude vs Cloudiness</h3>
                   <hr/>
                     
-                    <a href = "Resources/assets/images/Fig3.png" alt="Latitude vs. Cloudiness">
+                    <a href = "cloudiness.html" alt="Latitude vs. Cloudiness">
                       <img src="Resources/assets/images/Fig3.png" 
                        alt="Description of Fig 3"; border:3px solid float: left></a>   
                     <p></p> 
                       <br>
                       <p> Cloudiness appears to collect in belts around certain longitudes but be unaffected by latitude.</p>
-              </div>      
+              </div>
+              <div class="col-md-4">
+                <div class="box">
+                  <h3 class="Visualizations">Visualizations</h3>
+                  <hr/>
+                      <a href="temp.html" alt="Latitude vs. Max Temperature" class="thumbnail" style="float:left">
+                      <img src="Resources/assets/images/Fig1.png"  style=width:200px length:350px vspace="15"></a>
+                      
+                      <a href="humidity.html" alt="Latitude vs. Humidity" class="thumbnail" style="float:right">
+                        <img src="Resources/assets/images/Fig2.png"  style=width:200px length:350px vspace="15"></a>
+                      
+                      <a href="cloudiness.html" alt="Latitude vs. Cloudiness" class="thumbnail" style="float:left">
+                         <img src="Resources/assets/images/Fig3.png"  style=width:200px  length:350px vspace="15"></a>
+                        
+                      <a href="wind.html" alt="Latitude vs. Wind Speed" class="thumbnail" style="float:right">
+                        <img src="Resources/assets/images/Fig4.png"  style=width:200px length:350px vspace="15"></a>  
+                </div>
+              </div>          
             </div>
+        </div> 
       </div>
 </body>    
 </html>

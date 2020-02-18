@@ -24,14 +24,15 @@
 .box {
     float: left;
     width: 100.00%; 
-   /* padding: 30px; /* if you want space between the images */
+    padding: 20px; /* if you want space between the images */
    /* height: 800px;*/
         background-color: rgb(255, 0, 212);
         margin: 0px;
         margin-top: 200;
       }
-      
-.html {
+
+/* Include padding and border in all box width and heights*/     
+* {
     box-sizing: border-box;
 }
 

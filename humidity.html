@@ -4,8 +4,12 @@
     <meta charset="utf-8" />
     <title>Humidity</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">      <link rel="stylesheet" href="style.css">
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" type="text/css" href="mystyle.css">
     <link rel="stylesheet" href="assets/css/styles.css" media="screen">
 </head>
 
@@ -37,22 +41,46 @@
             </ul>
           </div>  
 </nav>
-      <div class="container-fluid">        
+      <div class="container-fluid">
+        <div class="jumbotron">       
             <div class="row"> 
               <div class="col-md-8">
                   <h3 class="Humidity">Latitude vs Humidity</h3>
                   <hr/>
                     
-                    <a href = "Resources/assets/images/Fig2.png" alt="Latitude vs. Humidity">
+                    <a href = "humidity.html" alt="Latitude vs. Humidity">
                       <img src="Resources/assets/images/Fig2.png" 
-                       alt="Description of Fig 2"; border:3px solid float: left>   
+                       alt="Description of Fig 2"; border:3px solid float: left></a>  
                      
                       <br>
+                      &nbsp; <!--insert blank line after visual-->
                       <p>I expected cities near the equator to have the most humidity but that wasn't true.  Overall 
                         the northern hemisphere is more humid than the south. The graph shows a cluster of the cities with the highest are near or on the Artic 
                         ocean in Russia, Greenland and Canada.  When I looked into why I discovered that Artic humidity is the result of global warming.  It has
                         been rising since the glaciers started melting. The warmer air on the ice does not generate humidity but when the warmer air meets the 
                         water it does. The rising water vapor contributes to humid conditions and accelerates the rate of melting near the Artic circle.  The more 
-                        open surface water there is the more humidity there will be so it's a dangerous cycle.    </p>
+                        open surface water there is the more humidity there will be so it's a dangerous cycle.</p> 
+                               
+              </div> 
+              <div class="col-md-4">
+                <div class="box">
+                  <h3 class="Visualizations">Visualizations</h3>
+                  <hr/>
+                      <a href="temp.html" alt="Latitude vs. Max Temperature" class="thumbnail" style="float:left">
+                      <img src="Resources/assets/images/Fig1.png"  style=width:200px length:350px vspace="15"></a>
                       
-                    </div>
+                      <a href="humidity.html" alt="Latitude vs. Humidity" class="thumbnail" style="float:right">
+                        <img src="Resources/assets/images/Fig2.png"  style=width:200px length:350px vspace="15"></a>
+                      
+                      <a href="cloudiness.html" alt="Latitude vs. Cloudiness" class="thumbnail" style="float:left">
+                         <img src="Resources/assets/images/Fig3.png"  style=width:200px  length:350px vspace="15"></a>
+                        
+                      <a href="wind.html" alt="Latitude vs. Wind Speed" class="thumbnail" style="float:right">
+                        <img src="Resources/assets/images/Fig4.png"  style=width:200px length:350px vspace="15"></a>  
+                </div>
+              </div>      
+            </div>
+        </div>
+      </div>
+    </body>
+</html>
